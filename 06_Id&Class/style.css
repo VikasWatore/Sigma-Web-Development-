@@ -1,0 +1,12 @@
+/* ( # ) : for id  
+   ( .  ) : for class
+*/
+.red{
+    color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+#FD{
+    /* background-color: red; */
+}
