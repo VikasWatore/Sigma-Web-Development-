@@ -1,0 +1,61 @@
+🧱 Block Elements (Most Commonly Used First)
+These elements stack vertically and are mainly used for layout and structure.
+
+🔧 Element	📄 Description
+<div>	🧰 Generic container for flow content
+<p>	📝 Paragraph
+<h1>–<h6>	🔠 Headings (largest to smallest)
+<ul>	📋 Unordered (bulleted) list
+<ol>	🔢 Ordered (numbered) list
+<li>	🧾 List item
+<form>	🖊️ Form controls container
+<table>	📊 Table layout
+<section>	📚 Standalone section
+<header>	🚪 Page or section intro
+<footer>	🧱 Footer of page or section
+<nav>	🧭 Navigation links
+<article>	📰 Self-contained content
+<aside>	🧩 Sidebar or additional info
+<main>	🧵 Main content of the document
+<fieldset>	📦 Group of form fields
+<blockquote>	💬 Quoted block text
+<pre>	🧾 Preformatted (monospaced) text
+<canvas>	🎨 Drawing graphics with JS
+<dl>	📘 Description list
+<dt>	📌 Term in the list
+<dd>	📖 Description of the term
+<figure>	🖼️ Content with caption
+<figcaption>	🏷️ Caption for the figure
+<address>	📬 Contact information
+<hr>	➖ Thematic break or horizontal rule
+<tfoot>	👣 Footer of a table
+
+🧷 Inline Elements (Most Commonly Used First)
+These elements do not break the flow of content — they stay in the same line.
+
+🔧 Element	📄 Description
+<a>	🔗 Anchor (hyperlink)
+<img>	🖼️ Image
+<span>	🧵 Generic inline container
+<input>	✍️ Input field
+<label>	🏷️ Label for input field
+<strong>	💪 Strong importance
+<em>	✨ Emphasized text
+<br>	↩️ Line break
+<code>	💻 Code snippet
+<b>	🔤 Bold (non-semantic)
+<i>	🔠 Italic (non-semantic)
+<u>	⬇️ Underlined text
+<small>	🐜 Smaller text
+<sub>	🔽 Subscript (e.g., H₂O)
+<sup>	🔼 Superscript (e.g., x²)
+<mark>	🖍️ Highlighted/marked text
+<q>	❝ Short quote ❞
+<cite>	📚 Citation/source
+<kbd>	⌨️ Keyboard input
+<samp>	🧪 Sample output
+<var>	📐 Variable (math/code)
+<time>	🕒 Time or date
+<abbr>	🔤 Abbreviation
+<data>	📎 Machine-readable value
+<acronym>	🚫 Deprecated in HTML5
