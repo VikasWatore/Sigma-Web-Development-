@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body{
+            background-color: gray;
+            padding: 12px 12px;
+            margin: 12px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+        .card{
+            background-color: white;
+            height: 310px;
+            width: 198px;
+            border-radius: 5px;
+            padding-bottom: 34px;
+        }
+        .image{
+            padding: 5px;
+        }
+        
+        .image img{
+            border-radius: 7px;
+
+        }
+
+        .content{
+            padding: 7px 13px;
+              font-family: "Poppins", sans-serif;
+        }
+
+        .content p{
+            font-size: 10px;
+            color: gray;
+        }
+
+        .capsules{
+            padding: 0 34px 0 14px;
+        }
+
+        .capsules span{
+            border: 1px solid grey;
+            border-radius: 7px;
+            padding: 0px 6px;
+            font-size: 10px;
+        }
+        .button{
+            text-align: center;
+        }
+ 
+        .button button{
+            padding: 4px 7px;
+            border-radius: 15px;
+            background-color: rgb(177, 220, 235);
+            color: rgb(14, 150, 234);
+            font-size: 12px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button button:hover{
+            background-color: rgb(255, 255, 255);
+            color: rgb(10, 136, 214);
+            border: 1px solid rgb(153, 248, 248);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+
+        <div class="image">
+            <img width="188" src="./bear-8364583_1280.png" alt="">
+        </div>
+
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+
+        <div class="content">
+            <h2>Vikas</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate vitae aliquid reiciendis, tempore inventore voluptatem vel expedita optio soluta quos.</p>
+        </div>
+
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
