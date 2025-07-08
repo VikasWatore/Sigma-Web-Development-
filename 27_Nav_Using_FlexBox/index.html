@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Using FlexBox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+</style>
+
+</head>
+
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+     }
+
+    .navbar ,.nav, .search{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .navbar{
+        width: 100vw;
+        
+        gap:20px;
+    }
+
+    .nav{
+        gap: 10px;
+    }
+    a{
+        text-decoration-line: none;
+        color: black;
+
+    }
+
+    .btn button{
+        width: 80px;
+        font-weight: bold;
+        padding: 10px 50px;
+    }
+
+    .search{
+        gap: 30px;
+    }
+    .srcbtn button{
+        border: none;
+    }
+       
+</style>
+
+
+<body>
+
+
+    <div class="navbar">
+
+        <div class="logo">
+            <img width="250px" height="55px" src="https://www.ultraedit.com/wp-content/uploads/2023/01/Background-2.png" alt="">
+        </div>
+
+        <div class="nav">
+            <nav><a href=""> Products</a><i class="fa-solid fa-angle-down"></i></nav>
+            <nav> <a href="">pricing</a><i class="fa-solid fa-angle-down"></i> </nav>
+            <nav> <a href="">Resources</a><i class="fa-solid fa-angle-down"></i></nav>
+            <nav> <a href="">Our Company</a><i class="fa-solid fa-angle-down"></i></nav>
+        </div>
+
+        <div class="search">
+            <div class="btn">
+                <button>BUY NOW</button>
+            </div>
+            <div class="para">
+                <p><i class="fa-solid fa-globe"></i> English</p>
+            </div>
+            <div class="srcbtn">
+                <button><i class="fa-solid fa-magnifying-glass fa-rotate-90 fa-xl"></i></button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
