@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div style="color: red;" class="box" data-created="vikas">Hey i am Box</div>
+    <!-- Data Attribute -->
+    
+        <div class="box">Hey i am Box</div>
+    </div>
+
+
+
+    <script src="./index.js"></script>
+    <script>
+        // let div=document.createElement("div");
+        // div.innerHTML="I have inserted by <b>Vikas</b>"
+        // div.setAttribute("class","created");
+        // document.querySelector(".container").append(div)
+
+
+        let cont=document.querySelector(".container");
+        cont.insertAdjacentHTML("beforebegin","<b>hello jiiiiiiiiiii</b")
+    </script>
+</body>
+</html>
