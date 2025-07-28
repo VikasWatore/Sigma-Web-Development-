@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .card{
+            display: flex;
+            border: 2px solid black;
+            width: 900px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            margin: 5px;            
+        }
+        .image img{
+            width: 200px;
+        }
+        .text h1 , p{
+            padding-top: 2px 0;
+        }
+        .image{
+            position: relative;
+        }
+        .capsule{
+            position: absolute;
+            bottom: 4px;
+            z-index: 10;
+            right: 5px;
+            background-color: rgb(18, 15, 15);
+            opacity: 0.9;
+            color: white;
+            padding: 2px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+    </style>
+</head> 
+<body>
+
+    <div class="container">
+
+
+        <div class="card">
+               <div class="image">
+                <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDf-xrqgUw55JSfKsoykKVhngkzRA" alt="">
+                <div class="capsule">31:06</div>
+               </div> 
+               <div class="text">
+                <h1>Introduction to Backend |Sigma Web Dev Video</h1>
+                <p>code with vikas . 727k views . 2 month ago</p>
+               </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
