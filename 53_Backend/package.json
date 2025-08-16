@@ -1,0 +1,19 @@
+{
+  "name": "codingforfun",
+  "version": "1.0.0",
+  "description": "just for fun and learn node",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+    
+  },
+  "author": "Vikas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "slugify": "^1.6.6"
+  }
+}
